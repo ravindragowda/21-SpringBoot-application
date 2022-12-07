@@ -6,6 +6,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class Application {
+private Map<String,Object> cache=new HashMap<String,Object>();
 
 	public static void main(String[] args) {
 		
@@ -17,4 +18,8 @@ public class Application {
 		//logic goes here
 	}
 
+     //HIS 301 changes
+     public void loadDataToCache(){
+            //logic
+                    }
 }
