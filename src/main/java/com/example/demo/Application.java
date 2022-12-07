@@ -10,6 +10,8 @@ public class Application {
 	public static void main(String[] args) {
 		
 		ConfigurableApplicationContext rm=SpringApplication.run(Application.class, args);
+		
+		ConfigurableApplicationContext rm=SpringApplication.run(Application.class, args);
 	}
 
 }
